@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a> 
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+ 
+    <script src='js/device.min.js'></script> 
+</head>
+
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+        <div id="stuck_container" class="stuck_container">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_8">
+                        <div class="brand">
+                            <a href="./">
+                                <h1 class="brand_name brand-icon">
+                                    Samfoshealth
+                                </h1>
+                            </a><br>     
+                            <p class="brand_slogan">
+                                Home care & Agency
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid_4">
+                        <ul class="list01">
+                            <li><a class="no-border" href="#">Login</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a class="no-margin" href="#">sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="sf-menu">
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="index-1.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="index-2.html">Our Services</a>
+                            <ul>
+                                <li>
+                                    <a href="index-7.html" style="width: 157px; ">Home Care Servies</a>
+                                </li>
+                                <li>
+                                    <a href="index-8.html" style="width: 147px; ">Nursing Services</a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="index-10.html" style="width: 147px; ">Live-In Services</a>
+                                </li>
+                            </ul>
+                        </li>
+        
+                        </li>
+                        <li>
+                            <a href="index-3.html">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="index-4.html">Vacancies</a>
+                            
+                        </li>
+                        <li class="active">
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="index-5.html">Contacts us</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+                    <label class="search-form_label">
+                        <input class="search-form_input" type="text" name="s" autocomplete="off" placeholder=""/>
+                        <span class="search-form_liveout"></span>
+                    </label>
+                    <button class="search-form_submit fa-search" type="submit"></button>
+                </form>
+            </div>
+             
+        </div>
+
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <section>
+       <div class="well-02 __sub01">
+                <div class="container">
+                    <div class="row">
+                    <div class="grid_6 wow fadeInRight">
+                            <div class="box" style="height: 480px;">
+                            	<div class="box_cnt __mod01">
+                            	<h5 data-equal-group="1" style="width: 235px; ">Download Application Forms</h5>
+                            	<form method = "get" action ="bat/download.php">
+                            	<p>CARER PACK</p>
+                            	<button type="sumbit">Download</button>
+                            	</form>
+                            	<p>&nbsp;</p>
+                            	<form method = "get" action ="bat/download.php">
+                            	<p>NURSE PACK</p>
+                            	<button type="sumbit">Download</button>
+                            	</form>
+                            	
+                  				</div>
+   							</div>
+    			</div> 
+    			<div class="grid_6 wow fadeInRight">
+                           
+                            <div class="box" style="height: 480px; "> 
+                                <div class="box_cnt __mod01">
+                               <h5 data-equal-group="1" style="width: 235px; ">Send Your CV</h5>
+                               <div id="mainContent" style="height: 380px; ">
+                                <p><a href="/sendcv.php" class="tabBG cv"></a></p>
+                                <p>Send us your CV using the form below</p>
+                                <form enctype="multipart/form-data" action="uploadcv.php" method="POST">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="1512000">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                                <tr>
+                                <td width="30%"><p>Name:</p></td>
+                                <td align="left" valign="middle"><input type="text" name="Name" id="Name"></td>
+                                </tr>
+                                <td><p>E-Mail Address:</p></td>
+                                <td align="left" valign="middle"><input type="text" name="Email" id="Email"></td>
+                                <tr></tr>
+                                <tr>
+                                <td><p>Phone Number:</p></td>
+                                <td align="left" valign="middle"><input type="text" name="PhoneNumber" id="PhoneNumber"></td>
+                                </tr>
+                                <tr>
+                                <td><p>Your CV:</p></td>
+                                <td align="left" valign="middle"><input name="userfile" type="file" id="userfile"></td>
+                                </tr>
+                  
+                               <tr>
+                               <td>&nbsp;</td>
+                               <td align="left" valign="middle"><br><input type="submit" name="Submit" id="Submit" value="Send"></td>
+                               </tr>
+                               </table>
+		                       </form>
+		               <p>&nbsp;</p>
+		              <p style="width: 305px; ">Note: Due to inflow of many application, if you don't hear from us within two weeks, meaning your application was not successful</p>
+                   <p>&nbsp;</p>
+    <p></p>
+    <p></p>
+  </div>
+                               
+                                <!-- mainContent -->
+                                
+                                </div>
+                            </div>
+                        </div>
+    			
+    			
+    			    </div>
+               </div>
+      </div>
+  </section>
+ </main>
+
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer>
+        <div class="bg-wrap">
+            <div class="footer-well">
+                <div class="container">
+                    <div class="row">
+                        <div class="grid_4">
+                            <div class="copyright">
+                                <h6>Copyright</h6>
+                                <a class="footer-brand" href="./">Samfoshealth</a>
+                                <p>© <span id="copyright-year"></span>
+                                <a href="index-6.html">Privacy policy</a></p>
+                                <ul class="soc-list">
+                                    <li><a href="#">twitter</a></li>
+                                    <li><a href="#">facebook</a></li>
+                                    <li><a href="#">you tube</a></li>
+                                </ul>
+                              
+                            </div>
+                        </div>
+                        <div class="grid_4">
+                            <div class="about-us">
+                                <h6>About Us</h6>
+                                <p>Samfos Health is a healthcare recruitment agency that continually aims to make a difference in clients lives through quality care delivered by carefully selected and dedicated professionals. Our company is based on the belief that our customers' needs are of our utmost importance. Our entire team is committed to meeting those needs. As a result, a high percentage of our business is from repeat customers and referrals.</p>
+                            </div>
+                        </div>
+                        <div class="grid_4">
+                            <div class="contact-us">
+                                <h6>Contact Us</h6>
+                               <p>Telephone:  (0114) 245 5450</p>
+                                <a href="#">ssamfos@samfoshealth.com</a>
+                                <p><span>Knutton Road,</span><span>Sheffield, S5 9NU.</span><span>United Kingdom</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
