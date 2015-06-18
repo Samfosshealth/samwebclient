@@ -350,7 +350,7 @@ strong {
   text-align: center;
 }
 .isStuck .brand .brand-icon:before {
-  content: url(../images/logo.png);
+  content: url(../images/LOGOC.png);
   position: absolute;
   top: -5px;
   left: 0;
