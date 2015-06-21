@@ -1,0 +1,99 @@
+* {margin:0; padding:0}
+
+
+
+.banner-box .start-banner #wrapper {width:1000px;}
+
+.banner-box .start-banner #container {position:relative; height:340px;}
+
+.banner-box .start-banner .sliderbutton {float:left; width:30px; height:58px;position:absolute;}
+
+.banner-box .start-banner #slideleft {}
+
+.banner-box .start-banner #slideleft .next {position:absolute;z-index:10;margin-top:130px;cursor:pointer;margin-left:-10px;}
+
+.banner-box .start-banner #slideright .prev {position:absolute;z-index:10;margin-top:130px;cursor:pointer;margin-left:-10px;margin-left:910px;}
+
+.banner-box .start-banner #slideleft:hover {background-position:-0 -265px}
+
+.banner-box .start-banner #slideright {padding-left:30px;}
+
+.banner-box .start-banner #slideright {}
+
+.banner-box .start-banner #slideright:hover {}
+
+.banner-box .start-banner #slider {float:left; position:relative; width:970px; height:340px;}
+
+.banner-box .start-banner #slider h1 {font-size:18px;padding-top:10px;}
+
+.banner-box .start-banner #slider ul {position:absolute; list-style:none; top:0; left:0}
+
+.banner-box .start-banner #slider li {float:left; width:970px; height:auto;padding-right:10px;}
+
+.banner-box .start-banner #slider li img {margin-right:3px;}
+
+
+
+.slide-content {position:absolute;z-index:9;width:418px;min-height:200px;margin-top:-280px;margin-left:542px;}
+
+
+
+.slide-content .headline {width:418px;min-height:71px;background:url(images/blackbg.png);}
+
+
+
+.slide-content .headline h1 {color:#75c044;font-family:Verdana;font-size:26px;font-weight:normal;width:350px;margin-left:70px;}
+
+
+
+.slide-content p {font-size:16px;color:#FFFFFF;font-family:Verdana;width:350px;margin-left:70px;margin-top:25px;}
+
+
+
+.slide-content .go {margin-left:70px;margin-top:25px;}
+
+
+
+
+
+
+
+.banner-box .start-banner .pagination {position:absolute; top:40px; right:61px; list-style:none; height:25px;display:none;}
+
+.banner-box .start-banner .pagination li {float:left; cursor:pointer; height:8px; width:8px; background:#ccc; margin:0 4px 0 0; }
+
+.banner-box .start-banner .pagination li:hover, li.current {background:#fff}
+
+
+
+
+
+/*style for safari only*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+
+
+
+
+.banner-box .start-banner #slideright {padding-left:30px;}
+
+
+
+}
+
+
+
+
+
+/*style for opera only*/
+
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0) {
+
+.banner-box .start-banner #slideright {padding-left:30px;}
+
+
+
+
+
+}
