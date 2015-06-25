@@ -803,14 +803,16 @@ header .nav {
     float: none;
   }
 }
-header .icon-phone:before{
- content: url(../images/phone_2.png);
-	position:relative;
-	top:2px;
-}
 header .list01 {
   margin-top: 81px;
+ 
 }
+ul.list04{
+  list-style-image: url(../images/page_email.png);
+  left: 500px;
+
+ }
+ 
 @media only screen and (max-width: 1199px) {
   header .list01 {
     margin-top: 56px;
@@ -992,6 +994,33 @@ main {
 .well-04.__mod2 {
   padding-bottom: 50px;
 }
+.content-box .container .inner-content-bg {
+	width:642px;min-height:600px;
+	background:url(../images/innerbg_02.png);
+	float:left;
+	}
+.content-box .container .inner-content-bg .main-content {
+	width:580px;
+	float:left;
+	font-family:Verdana;
+	font-size:12px;
+	color:#7a7a7a;
+	margin-left:20px;}
+.content-box .container .inner-content-bg .main-content  h1,h2,h3,h4,a {
+	color:#75c044;
+	font-weight:normal;}
+.content-box .container .inner-content-bg .main-content  p {
+	margin-bottom:10px;
+	}
+
+.content-box .container .inner-content-bg .main-content ul {
+	list-style-type:circle;
+	}
+.content-box .container .inner-content-bg .main-content ol {
+	margin-left:22px;
+	margin-bottom:10px;
+	}
+
 .footer-well {
   padding-top: 71px;
   padding-bottom: 168px;
@@ -1176,7 +1205,7 @@ hr + p {
 .no-margin {
   margin: 0 !important;
 }
-.no-border {
+.no-border {	
   border: 0 !important;
 }
 /*==================      Box      ======================*/
